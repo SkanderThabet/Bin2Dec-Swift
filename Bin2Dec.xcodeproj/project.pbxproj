@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		01F119202D3D561700192936 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 01F1191F2D3D561100192936 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		01F118F82D3D3EEB00192936 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		01F118E72D3D3EEA00192936 /* Bin2Dec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bin2Dec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F118F72D3D3EEB00192936 /* Bin2DecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bin2DecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01F119012D3D3EEB00192936 /* Bin2DecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bin2DecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01F1191F2D3D561100192936 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		01F118DE2D3D3EEA00192936 = {
 			isa = PBXGroup;
 			children = (
+				01F1191F2D3D561100192936 /* .gitignore */,
 				01F118E92D3D3EEA00192936 /* Bin2Dec */,
 				01F118FA2D3D3EEB00192936 /* Bin2DecTests */,
 				01F119042D3D3EEB00192936 /* Bin2DecUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01F119202D3D561700192936 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
